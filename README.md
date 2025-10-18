@@ -39,7 +39,6 @@ It allows users to **add, mark as done / undo, and delete tasks** — now with r
 ### 🗄️ Backend
 
 - RESTful API built with Express.js
-
 - Endpoints for:
 
   - `GET /tasks` — fetch all tasks
