@@ -5,13 +5,10 @@ function Todo() {
   const [task, setTask] = useState("");
   const [tasks, setTasks] = useState([]);
 
-  // LocalStorage ---no need if you have backend
-
   useEffect(() => {
     fetchTasks();
   }, []);
-  // setTasks([...tasks, newTask]);
-  // setTask("");
+
   const fetchTasks = async () => {
     try {
       const data = await getAllTasks();

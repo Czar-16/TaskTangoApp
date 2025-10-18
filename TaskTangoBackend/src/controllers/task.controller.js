@@ -8,7 +8,7 @@ const addTasks = async (req, res) => {
     }
     const newTask = new Task({ title: title.trim() });
     await newTask.save();
-    res.json(200).json(newTask);
+    res.status(200).json(newTask);
   } catch (error) {
     res.status(500).json({ error: "server Error" });
   }
