@@ -1,13 +1,9 @@
----
-
 # 📝 TaskTango — Full Stack Todo App
 
 **"Get It Done, One Task at a Time" ⏱️**
 
 TaskTango is a **full-stack Todo application** built with **React, TailwindCSS, Express.js, and MongoDB**.
 It allows users to **add, mark as done / undo, and delete tasks** — now with real-time data persistence through a backend API and MongoDB database.
-
----
 
 ## 🚀 Tech Stack
 
@@ -143,17 +139,6 @@ const BASE_URL = "http://localhost:5000";
 ### Database Image
 
 ![App Screenshot Delete](./TaskTangoFrontend/src/assets/DB.png)
-
----
-
-## 🧠 Learning Highlights
-
-- Integration of frontend and backend using REST APIs
-- CRUD operations with MongoDB
-- React state management with hooks (`useState`, `useEffect`)
-- Clean and responsive design with TailwindCSS
-
----
 
 ## 👨‍💻 Author
 
